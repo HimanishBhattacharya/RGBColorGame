@@ -1,0 +1,38 @@
+body{
+	font-family: Verdana;
+	position: relative;
+	background-color: black!important;
+	justify-content: center; 
+}
+.container{
+	position: absolute;
+	margin-top: 13%;
+	margin-left: 40%;
+	margin-right: 35%;
+	padding: 15px;
+	background-color: white;
+}
+input{
+	width: 100%;
+	background-color: transparent;
+	border:none;
+	border-bottom: black solid 1px;
+}
+label{
+	color: black;
+	padding-top: 5px;
+}
+button{
+	padding: 5px;
+	border:none;
+	background-color: red;
+}
+button:hover{
+	cursor: pointer;
+	color: white;
+	background-color:green;
+}
+a:hover{
+	color: green!important;
+	text-decoration: none;
+}
